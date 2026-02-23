@@ -6,7 +6,7 @@
 This repository is a fork of `messagemedia/messages-nodejs-sdk` ([GitHub](https://github.com/messagemedia/messages-nodejs-sdk)).
 This fork exists to keep dependency and security fixes up to date.
 
-If you are building a new integration, direct REST API usage is still the recommended path:
+If you are building a new integration, direct REST API usage is the recommended path:
 [MessageMedia Messaging REST API Docs](https://messagemedia.github.io/documentation/#tag/Messages).
 
 ## Installation
@@ -20,7 +20,7 @@ npm install @paulchiu/messagemedia-messages-sdk
 Or add it to `package.json`:
 
 ```json
-"@paulchiu/messagemedia-messages-sdk": "^2.0.3"
+"@paulchiu/messagemedia-messages-sdk": "^2.0.4"
 ```
 
 ## Usage
