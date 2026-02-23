@@ -1,4 +1,5 @@
-const lib = require('messagemedia-messages-sdk');
+const lib = require('..');
+const moment = require('moment');
 
 /* Basic Auth */
 lib.Configuration.basicAuthUserName = "YOUR_BASIC_API_KEY";
