@@ -1,0 +1,21 @@
+# Keep published package focused on runtime SDK files.
+
+# VCS and CI
+.git/
+.gitignore
+.travis.yml
+
+# Tooling and local artifacts
+node_modules/
+.npm/
+.eslintcache
+coverage/
+.nyc_output/
+*.log
+npm-debug.log*
+*.tgz
+
+# Development-only files
+examples/
+eslint.config.js
+package-lock.json
