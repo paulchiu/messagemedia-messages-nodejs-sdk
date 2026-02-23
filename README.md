@@ -23,6 +23,22 @@ Or add it to `package.json`:
 "@paulchiu/messagemedia-messages-sdk": "^2.0.4"
 ```
 
+## Using with Legacy Dependencies
+
+If you have dependencies that still require the original `messagemedia-messages-sdk` package, you can force all packages to use this maintained fork with npm overrides.
+
+In `package.json`, add or create `overrides` block:
+
+```json
+{
+  "overrides": {
+    "messagemedia-messages-sdk": "npm:@paulchiu/messagemedia-messages-sdk@^2.0.4"
+  }
+}
+```
+
+This ensures any dependency requesting `messagemedia-messages-sdk` resolves to `@paulchiu/messagemedia-messages-sdk`.
+
 ## Usage
 
 Authentication uses API keys from the MessageMedia developer portal.
